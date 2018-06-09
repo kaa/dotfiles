@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Joakim Beijar
+	email = joakim.beijar@happysignals.com
+[core]
+	pager = less -F -X
+[alias]
+	llog = log --oneline --graph
+	slog = log --oneline --graph --simplify-by-decoration
