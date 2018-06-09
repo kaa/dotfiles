@@ -1,16 +1,31 @@
+tap "azure/functions"
 tap "homebrew/core"
+tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "caskroom/cask"
 brew "azure-cli"
+brew "ctags"
+brew "dnsmasq", restart_service: true
 brew "git"
 brew "hub"
+brew "kubernetes-cli", link: false
+brew "kubernetes-helm"
 brew "node"
+brew "node@8", link: true
 brew "postgresql", restart_service: true
 brew "pyenv"
 brew "pyenv-virtualenv"
+brew "rabbitmq", restart_service: true
+brew "stunnel"
+brew "tig"
+brew "tree"
 brew "zsh"
-cask "docker"
+brew "azure/functions/azure-functions-core-tools"
+cask "docker@edge"
+cask "dropbox"
+cask "firefox"
+cask "fork"
+cask "gfxcardstatus"
 cask "google-chrome"
 cask "ip-in-menu-bar"
 cask "iterm2"
