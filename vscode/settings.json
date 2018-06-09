@@ -1,0 +1,48 @@
+{
+    "python.venvPath": "/usr/local/opt/pyenv/versions",
+    "python.formatting.provider": "yapf",
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "editor.rulers": [
+        100
+    ],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#444"
+    },
+    "html.autoClosingTags": false,
+    "editor.autoClosingBrackets": false,
+    "nasc-touchbar.addCursorAbove": false,
+    "nasc-touchbar.addCursorBelow": false,
+    "nasc-touchbar.goToDefinition": false,
+    "nasc-touchbar.peekDefinition": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [
+        "line",
+        "overview",
+        "gutter"
+    ],
+    "gitlens.blame.avatars": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.renderWhitespace": "all",
+    "[python]": {},
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[scss]": {
+        
+    },
+    "gitlens.historyExplorer.enabled": true
+}
